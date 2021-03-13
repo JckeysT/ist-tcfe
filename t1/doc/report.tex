@@ -16,8 +16,12 @@
 \usepackage{listings}
 \usepackage[all]{nowidow}
 
+
+\usepackage{float} %Nota: Adicionei esta package para poder usar o [H] nas figuras; ter em atenção que demasiados [H] consecutivos pode dar erro
+
 %blind text
-\usepackage{lipsum}
+%\usepackage{lipsum}
+
 
 \usepackage{graphicx}
 \graphicspath{ {./} {../../figlib/} }
@@ -63,7 +67,8 @@
 	          bookmarksopen=false,    % don't expand bookmarks
 	          bookmarksnumbered=true, % number bookmarks
 	          pdftitle={report},
-            pdfauthor={Andre C. Marta},
+
+            pdfauthor={Alexandre Sequeira, Duarte Marques, João Chaves},
 %            pdfsubject={Thesis Title},
 %            pdfkeywords={Thesis Keywords},
             pdfstartview=FitV,
