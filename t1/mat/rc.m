@@ -29,12 +29,10 @@ vi(t) = R*i(t)+vo(t)
 v(t) = vo_n(t) + vo_f(t)
 
   printf("\n\nNatural solution:\n");
-
 syms A
 syms wn
 
 vi(t) = 0 %no excitation
-
   i_n(t) = C*diff(vo_n, t)
 
 
