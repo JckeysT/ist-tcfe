@@ -26,7 +26,11 @@ class Prob:
         print "Values: ",
         for i in range(len(self.varList)):
             self.varList[i].printVar()
+<<<<<<< HEAD
             print "\n\n"
+=======
+        print "\n\n"
+>>>>>>> 5f08ac511ecb548b023fef14ebf1d7d57651c169
             
     def addVar(self, var):
         self.varList.append(var)
@@ -57,7 +61,11 @@ class DataSet:
         self.prob.addVar(Var("Kc", 8, 5))
 
         self.probList.append(self.prob)
+<<<<<<< HEAD
         
+=======
+    
+>>>>>>> 5f08ac511ecb548b023fef14ebf1d7d57651c169
     def printDataSet(self):
         nprobs = len(self.probList)
         print "Units for the values: V, mA, kOhm and mS\n\n"
@@ -75,3 +83,8 @@ def main():
     dataset.printDataSet()
     
 if __name__ == "__main__": main()
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 5f08ac511ecb548b023fef14ebf1d7d57651c169
