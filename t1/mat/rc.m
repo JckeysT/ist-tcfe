@@ -2,7 +2,6 @@ close all
 clear all
 
 %EXAMPLE SYMBOLIC COMPUTATIONS
-%Neste EXAMPLE e no de baixo, estava %% e não %
 
   pkg load symbolic
 
@@ -59,8 +58,8 @@ vo_n(t) = A*exp(wn*t)
   %time axis: 0 to 10ms with 1us steps
   t=0:1e-6:10e-3; %s
 
-  Zc = 1/(w*C)
-  Cgain = Zc/(j*R+Zc)
+  Zc = 1/(j*w*C)
+  Cgain = Zc/(R+Zc)
   Gain = abs(Cgain)
   Phase = angle(Cgain)
 
