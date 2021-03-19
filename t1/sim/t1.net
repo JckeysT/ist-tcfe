@@ -77,7 +77,6 @@ echo "********************************************"
 *print v(7)
 
 echo  "op_TAB"
-*print all
 print @gb[i]
 print @id[current]
 print @r1[i]
@@ -92,7 +91,6 @@ print v(2)
 print v(3)
 print v(4)
 print v(5)
-*print v(52)
 print v(6)
 print v(7)
 echo  "op_END"

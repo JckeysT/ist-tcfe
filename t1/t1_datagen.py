@@ -26,7 +26,7 @@ class Prob:
         print "Values: ",
         for i in range(len(self.varList)):
             self.varList[i].printVar()
-        print "\n\n"
+            print "\n\n"
             
     def addVar(self, var):
         self.varList.append(var)
@@ -57,7 +57,7 @@ class DataSet:
         self.prob.addVar(Var("Kc", 8, 5))
 
         self.probList.append(self.prob)
-    
+        
     def printDataSet(self):
         nprobs = len(self.probList)
         print "Units for the values: V, mA, kOhm and mS\n\n"

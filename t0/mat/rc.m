@@ -64,7 +64,7 @@ Phase = angle(Cgain)
 vi = 1*cos(w*t);
 vo = Gain*cos(w*t+Phase);
 
-hf = figure ();
+hf = figure ("Visible", "off");
 plot (t*1000, vi, "g");
 hold on;
 plot (t*1000, vo, "b");
